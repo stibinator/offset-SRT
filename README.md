@@ -1,6 +1,6 @@
 This is a script to add a constant offset to all the subtitles in an SRT file
 
-To run it open a powershell window (windows-R and type powershell.exe), then `cd` to <the folder you saved the script into> eg: 
+To run it open a powershell window (windows-R and type powershell.exe), then `cd` to the folder you saved the script into eg: 
 
     cd c:\users\stib\downloads\
 
