@@ -16,16 +16,16 @@ then use the script thus:
 
 Here are the parameters:
 
-  `-inputSRT` is always the first parameter, and is mandatory. It is the path to your source srt. 
+ - `-inputSRT` is always the first parameter, and is mandatory. It is the path to your source srt. 
   
-  `-outputSRT` is optional. If not specified the output file name will be based on the input file with the tag \_offset on the end of the name, eg `myOriginalFile_offset.srt`
+ - `-outputSRT` is optional. If not specified the output file name will be based on the input file with the tag \_offset on the end of the name, eg `myOriginalFile_offset.srt`
   
-  `-Hours` - the hours offset. Don't specify any offsets that are 0. Offsets can be positive or negative integers
+ - `-Hours` - the hours offset. Don't specify any offsets that are 0. Offsets can be positive or negative integers
   
-  `-Minutes` - the minutes offset
+ - `-Minutes` - the minutes offset
   
-  `-Seconds` - you get the idea
+ - `-Seconds` - you get the idea
   
-  `-Milliseconds` or `-Frames` If `-Frames` is specified, `-Milliseconds` is ignored
+ - `-Milliseconds` or `-Frames` If `-Frames` is specified, `-Milliseconds` is ignored
   
-  `-Framerate` - only needed if `-Frames` is specified, default is 25  
+ - `-Framerate` - only needed if `-Frames` is specified, default is 25  
