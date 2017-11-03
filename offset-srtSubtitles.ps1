@@ -54,7 +54,7 @@ Function Offset-SRTSubtitles
   # User has specified frames, so convert to Milliseconds
   if ($Frames){$Milliseconds = 1000 * ($framerate -as [int]) / ($Frames -as [int])}
   if (! ($outputSRT)){
-    $outputSRT = $InputSRT.name.Replace($InputSRT.extension, "_offset.srt")
+    $outputSRT = join-path $InputSRT.directory $InputSRT.Name.Replace($InputSRT.extension, "_offset.srt")
   }
   # check for output conflicts
   if (test-path $outputSRT -ErrorAction SilentlyContinue){
