@@ -10,7 +10,7 @@ then type
 
 then use the script thus:
   
-  Offset-SRTSubtitles 'c:\path\to\mySRTFile.srt' -outputSRT "c:\path\to\newSRTfile.srt" -Hours 1 -Minutes 2 -Seconds -3 -Frames 2
+    Offset-SRTSubtitles 'c:\path\to\mySRTFile.srt' -outputSRT "c:\path\to\newSRTfile.srt" -Hours 1 -Minutes 2 -Seconds -3 -Frames 2
 
 Here are the parameters:
 
